@@ -1,0 +1,16 @@
+-- Create a new table
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Age INT
+);
+
+-- Insert data into the table
+INSERT INTO Students (StudentID, FirstName, LastName, Age)
+VALUES (1, 'John', 'Doe', 20),
+       (2, 'Jane', 'Smith', 22),
+       (3, 'Michael', 'Johnson', 21);
+
+-- Select all data from the table
+SELECT * FROM Students;
